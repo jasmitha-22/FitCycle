@@ -19,6 +19,7 @@ struct ContentView: View {
                         Image("Fitcycle Logo")
                         NavigationLink(destination: quizChoosePhase()) {
                             Text("Begin Workout")
+                                .padding()
                        }
                         .buttonStyle(.borderedProminent)
                         .buttonBorderShape(.roundedRectangle(radius: 10))
