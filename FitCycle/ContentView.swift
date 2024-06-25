@@ -16,7 +16,7 @@ struct ContentView: View {
                     Color(red: 1, green: 0.8705882352941177, blue: 0.8705882352941177)
                         .ignoresSafeArea()
                     VStack{
-                        Image("Fitcycle Logo")
+                        Image("logo")
                         NavigationLink(destination: quizChoosePhase()) {
                             Text("Begin Workout")
                                 .padding()
