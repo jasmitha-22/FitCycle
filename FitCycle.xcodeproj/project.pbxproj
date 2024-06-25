@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		446BC6582C2B327C00667E20 /* menstrual .swift in Sources */ = {isa = PBXBuildFile; fileRef = 446BC6572C2B327C00667E20 /* menstrual .swift */; };
+		446BC65A2C2B328C00667E20 /* follicular .swift in Sources */ = {isa = PBXBuildFile; fileRef = 446BC6592C2B328C00667E20 /* follicular .swift */; };
+		446BC65C2C2B329F00667E20 /* ovulatory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446BC65B2C2B329F00667E20 /* ovulatory.swift */; };
+		446BC65E2C2B32AE00667E20 /* luteal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446BC65D2C2B32AE00667E20 /* luteal.swift */; };
 		9389B4002C29F5390057EC30 /* FitCycleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389B3FF2C29F5390057EC30 /* FitCycleApp.swift */; };
 		9389B4022C29F5390057EC30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389B4012C29F5390057EC30 /* ContentView.swift */; };
 		9389B4042C29F54D0057EC30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9389B4032C29F54D0057EC30 /* Assets.xcassets */; };
@@ -19,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		446BC6572C2B327C00667E20 /* menstrual .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "menstrual .swift"; sourceTree = "<group>"; };
+		446BC6592C2B328C00667E20 /* follicular .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "follicular .swift"; sourceTree = "<group>"; };
+		446BC65B2C2B329F00667E20 /* ovulatory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ovulatory.swift; sourceTree = "<group>"; };
+		446BC65D2C2B32AE00667E20 /* luteal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = luteal.swift; sourceTree = "<group>"; };
 		9389B3FC2C29F5390057EC30 /* FitCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9389B3FF2C29F5390057EC30 /* FitCycleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitCycleApp.swift; sourceTree = "<group>"; };
 		9389B4012C29F5390057EC30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +72,10 @@
 				9389B3FF2C29F5390057EC30 /* FitCycleApp.swift */,
 				9389B4012C29F5390057EC30 /* ContentView.swift */,
 				9389B4172C2A774D0057EC30 /* quizChoosePhase.swift */,
+				446BC65B2C2B329F00667E20 /* ovulatory.swift */,
+				446BC65D2C2B32AE00667E20 /* luteal.swift */,
+				446BC6592C2B328C00667E20 /* follicular .swift */,
+				446BC6572C2B327C00667E20 /* menstrual .swift */,
 				9389B4122C2A771D0057EC30 /* FitCycle */,
 				9389B4032C29F54D0057EC30 /* Assets.xcassets */,
 				9389B4052C29F54D0057EC30 /* Preview Content */,
@@ -172,9 +184,13 @@
 			files = (
 				9389B4182C2A774D0057EC30 /* quizChoosePhase.swift in Sources */,
 				9389B4162C2A771D0057EC30 /* FitCycleApp.swift in Sources */,
+				446BC6582C2B327C00667E20 /* menstrual .swift in Sources */,
 				9389B4022C29F5390057EC30 /* ContentView.swift in Sources */,
+				446BC65E2C2B32AE00667E20 /* luteal.swift in Sources */,
 				9389B4002C29F5390057EC30 /* FitCycleApp.swift in Sources */,
 				9389B4152C2A771D0057EC30 /* ContentView.swift in Sources */,
+				446BC65A2C2B328C00667E20 /* follicular .swift in Sources */,
+				446BC65C2C2B329F00667E20 /* ovulatory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
