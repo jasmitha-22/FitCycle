@@ -11,6 +11,11 @@
 		9389B4022C29F5390057EC30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389B4012C29F5390057EC30 /* ContentView.swift */; };
 		9389B4042C29F54D0057EC30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9389B4032C29F54D0057EC30 /* Assets.xcassets */; };
 		9389B4072C29F54D0057EC30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9389B4062C29F54D0057EC30 /* Preview Assets.xcassets */; };
+		9389B4132C2A771D0057EC30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9389B40D2C2A771D0057EC30 /* Preview Assets.xcassets */; };
+		9389B4142C2A771D0057EC30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9389B40F2C2A771D0057EC30 /* Assets.xcassets */; };
+		9389B4152C2A771D0057EC30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389B4102C2A771D0057EC30 /* ContentView.swift */; };
+		9389B4162C2A771D0057EC30 /* FitCycleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389B4112C2A771D0057EC30 /* FitCycleApp.swift */; };
+		9389B4182C2A774D0057EC30 /* quizChoosePhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389B4172C2A774D0057EC30 /* quizChoosePhase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		9389B4012C29F5390057EC30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9389B4032C29F54D0057EC30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9389B4062C29F54D0057EC30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9389B40D2C2A771D0057EC30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9389B40F2C2A771D0057EC30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9389B4102C2A771D0057EC30 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9389B4112C2A771D0057EC30 /* FitCycleApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitCycleApp.swift; sourceTree = "<group>"; };
+		9389B4172C2A774D0057EC30 /* quizChoosePhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizChoosePhase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,8 @@
 			children = (
 				9389B3FF2C29F5390057EC30 /* FitCycleApp.swift */,
 				9389B4012C29F5390057EC30 /* ContentView.swift */,
+				9389B4172C2A774D0057EC30 /* quizChoosePhase.swift */,
+				9389B4122C2A771D0057EC30 /* FitCycle */,
 				9389B4032C29F54D0057EC30 /* Assets.xcassets */,
 				9389B4052C29F54D0057EC30 /* Preview Content */,
 			);
@@ -65,6 +77,25 @@
 				9389B4062C29F54D0057EC30 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9389B40E2C2A771D0057EC30 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9389B40D2C2A771D0057EC30 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9389B4122C2A771D0057EC30 /* FitCycle */ = {
+			isa = PBXGroup;
+			children = (
+				9389B40E2C2A771D0057EC30 /* Preview Content */,
+				9389B40F2C2A771D0057EC30 /* Assets.xcassets */,
+				9389B4102C2A771D0057EC30 /* ContentView.swift */,
+				9389B4112C2A771D0057EC30 /* FitCycleApp.swift */,
+			);
+			name = FitCycle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +157,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9389B4072C29F54D0057EC30 /* Preview Assets.xcassets in Resources */,
+				9389B4132C2A771D0057EC30 /* Preview Assets.xcassets in Resources */,
+				9389B4142C2A771D0057EC30 /* Assets.xcassets in Resources */,
 				9389B4042C29F54D0057EC30 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +170,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9389B4182C2A774D0057EC30 /* quizChoosePhase.swift in Sources */,
+				9389B4162C2A771D0057EC30 /* FitCycleApp.swift in Sources */,
 				9389B4022C29F5390057EC30 /* ContentView.swift in Sources */,
 				9389B4002C29F5390057EC30 /* FitCycleApp.swift in Sources */,
+				9389B4152C2A771D0057EC30 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

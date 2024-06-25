@@ -9,7 +9,17 @@ import SwiftUI
 
 struct quizChoosePhase: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            Color(red: 1, green: 0.8705882352941177, blue: 0.8705882352941177)
+                .ignoresSafeArea()
+            VStack{
+               //just some ideas...totally up for change
+                Text("Quiz??")
+                Text("When was the first day of the menstrual cycle?")
+                Text("How are your energy levels today?")
+
+            }
+        }
     }
 }
 
