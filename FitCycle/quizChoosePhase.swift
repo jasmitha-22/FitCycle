@@ -18,7 +18,7 @@ struct quizChoosePhase: View {
                 VStack(spacing: 50){
                   //  just some ideas...totally up for change
                     DatePicker("First Day of Menstrual Cycle", selection: $MenstrualDate, in: ...Date(), displayedComponents: .date)
-                    
+                        .padding()
                     Spacer()
                     
                     // Here we assign today's date
