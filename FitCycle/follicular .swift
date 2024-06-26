@@ -20,8 +20,11 @@ struct follicular: View {
                     .multilineTextAlignment(.center)
                     .padding()
                 WebView(urlString: "https:www.youtube.com/embed/_9sMkE-1VBI?si=qhPj-gfbWIUlY1v7")
+                    .frame(width:300, height:300)
                     .padding()
-                
+                Image("happy")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
             }
 
         }

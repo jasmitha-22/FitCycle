@@ -14,16 +14,19 @@ struct menstrual_: View {
             Color(red: 1, green: 0.8705882352941177, blue: 0.8705882352941177)
                 .ignoresSafeArea()
             VStack{
-                Text("During the Follicular Phase (2), your energy levles will rise, but your stamina can still be low. Some great exercises to try are light hiking, cardio, or strength training. Watch the video below for a guided workout!")
-                    .font(.body)
-                    .fontWeight(.semibold)
-                    .multilineTextAlignment(.center)
-                    .padding()
-                WebView(urlString: "https:www.youtube.com/embed/_9sMkE-1VBI?si=qhPj-gfbWIUlY1v7")
-                    .padding()
-                
+                    Text("During the Menstrual Phase (1) you may experience a slump in energy during menstruatio. Some exercises you can do are low-intensity aerobic ones, such as swimming, yoga, walking and cycling. Watch the video below for a guided workout!")
+                        .font(.body)
+                        .fontWeight(.semibold)
+                        .multilineTextAlignment(.center)
+                        .padding()
+                    WebView(urlString: "https://www.youtube.com/embed/TKKpnSOi_rs?si=gsQnmrirJZLfYKIP")
+                        .frame(width:300, height:300)
+                        .padding()
+                Image("cutie")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    
             }
-
         }
     }
         struct WebView: UIViewRepresentable {
