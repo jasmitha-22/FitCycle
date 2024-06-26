@@ -15,6 +15,18 @@ struct quizChoosePhase: View {
                     .ignoresSafeArea()
                 VStack(spacing: 50){
                     //just some ideas...totally up for change
+//                    DatePicker("Date of Purchase", selection: $PurchaseDate, in: ...Date(), displayedComponents: .date)
+//                    
+//                    Spacer()
+//                    
+//                    // Here we assign today's date
+//                    let date = Date()
+//                    let dateDiff = Calendar.current.dateComponents([.month], from: PurchaseDate, to: date)
+//                    let Months = dateDiff.month
+//                    // In the next line of code, I want to display months in integer, but I get the error
+//                    Text("$(Months)") // On this line display error message is "No exact matches in call to instance method 'appendInterpolation'"
+//                    Spacer()
+//
                     Text("What phase of your cycle are you in?")
                         .padding()
                     NavigationLink(destination: menstrual_()) {
