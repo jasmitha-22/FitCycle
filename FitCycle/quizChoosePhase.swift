@@ -27,7 +27,7 @@ struct quizChoosePhase: View {
                     .font(.callout)
                     .foregroundColor(Color(red: 1, green: 0.8705882352941177, blue: 0.8705882352941177))
                     
-                    NavigationLink(destination: follicular_()) {
+                    NavigationLink(destination: follicular()) {
                         Text ("Days 5-10: Follicular")
                             .padding()
                     }
