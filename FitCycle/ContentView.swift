@@ -24,7 +24,8 @@ struct ContentView: View {
                         .buttonStyle(.borderedProminent)
                         .buttonBorderShape(.roundedRectangle(radius: 10))
                         .tint(.init(red: 0.39215686274509803 ,green: 0.3137254901960784, blue: 0.40784313725490196))
-                        .font(.title2)
+                        .font(.custom("Playwrite NG Modern", size: 20))
+                        
                         .foregroundColor(Color(red: 1, green: 0.8705882352941177, blue: 0.8705882352941177))
                     }
                 }

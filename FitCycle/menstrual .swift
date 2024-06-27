@@ -14,7 +14,7 @@ struct menstrual_: View {
             Color(red: 1, green: 0.8705882352941177, blue: 0.8705882352941177)
                 .ignoresSafeArea()
             VStack{
-                    Text("During the Menstrual Phase (1) you may experience a slump in energy during menstruatio. Some exercises you can do are low-intensity aerobic ones, such as swimming, yoga, walking and cycling. Watch the video below for a guided workout!")
+                    Text("During the Menstrual Phase you may experience a slump in energy due to menstruation. Some exercises you can do are low-intensity aerobic ones, such as swimming, yoga, walking and cycling. Watch the video below for a guided workout!")
                         .font(.body)
                         .fontWeight(.semibold)
                         .multilineTextAlignment(.center)
