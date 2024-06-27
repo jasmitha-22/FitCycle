@@ -15,7 +15,7 @@ struct ovulatory: View {
             Color(red: 1, green: 0.8705882352941177, blue: 0.8705882352941177)
                 .ignoresSafeArea()
             VStack{
-                Text("The ovulatory part of the menstrual cycle lasts 12-24 hours, and that is when you are most fertile, and levels will feel depleted.  Watch the video below for a guided workout!")
+                Text("The ovulatory (4) part of the menstrual cycle lasts 12-24 hours, and that is when you are most fertile, and levels will feel depleted.  Watch the video below for a guided workout!")
                     .font(.body)
                     .fontWeight(.semibold)
                     .multilineTextAlignment(.center)

@@ -15,7 +15,7 @@ struct luteal: View {
             Color(red: 1, green: 0.8705882352941177, blue: 0.8705882352941177)
                 .ignoresSafeArea()
             VStack{
-                Text("The luteal part of the cycle lasts 12-14 days, and during the phase (4), your energy levels will feel depleted. In addtion, you'll most likely feel fatigued and groggy as a defult on most days of this phase. Some great exercises to try are gentle yoga, relaxing walks in nature and barre. Watch the video below for a guided workout!")
+                Text("The luteal part of the cycle lasts 12-14 days, and during the phase (3), your energy levels will feel depleted. In addtion, you'll most likely feel fatigued and groggy as a defult on most days of this phase. Some great exercises to try are gentle yoga, relaxing walks in nature and barre. Watch the video below for a guided workout!")
                     .font(.body)
                     .fontWeight(.semibold)
                     .multilineTextAlignment(.center)

@@ -43,7 +43,7 @@ struct quizChoosePhase: View {
                             .font(.title2)
                             .frame(width: 300.0, height: 95.0)
                         NavigationLink(destination: menstrual_()) {
-                            Text ("Days 1-5: Menstrual")
+                            Text ("Days 3-5: Menstrual")
                                 .padding()
                         }
                         .buttonStyle(.borderedProminent)
@@ -53,7 +53,7 @@ struct quizChoosePhase: View {
                         .foregroundColor(Color(red: 1, green: 0.8705882352941177, blue: 0.8705882352941177))
                         
                         NavigationLink(destination: follicular()) {
-                            Text ("Days 5-10: Follicular")
+                            Text ("Days 13-14: Follicular")
                                 .padding()
                         }
                         .buttonStyle(.borderedProminent)
@@ -63,7 +63,7 @@ struct quizChoosePhase: View {
                         .foregroundColor(Color(red: 1, green: 0.8705882352941177, blue: 0.8705882352941177))
                         
                         NavigationLink(destination: luteal()) {
-                            Text ("Days 10-15: Luteal")
+                            Text ("Days 12-14: Luteal")
                                 .padding()
                         }
                         .buttonStyle(.borderedProminent)
@@ -73,7 +73,7 @@ struct quizChoosePhase: View {
                         .foregroundColor(Color(red: 1, green: 0.8705882352941177, blue: 0.8705882352941177))
                         
                         NavigationLink(destination: ovulatory()) {
-                            Text ("Days 15-20: Ovulatory")
+                            Text ("Hours 12-24 : Ovulatory")
                                 .padding()
                         }
                         .buttonStyle(.borderedProminent)
