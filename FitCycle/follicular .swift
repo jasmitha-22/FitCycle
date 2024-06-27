@@ -15,7 +15,7 @@ struct follicular: View {
                 .ignoresSafeArea()
             VStack{
                 Text("During the Follicular Phase (2), your energy levles will rise, but your stamina can still be low. Some great exercises to try are light hiking, cardio, or strength training. Watch the video below for a guided workout!")
-                    .font(.body)
+                    .font(.custom("PlaywriteNGModern-Regular_Light", size: 15))
                     .fontWeight(.semibold)
                     .multilineTextAlignment(.center)
                     .padding()
