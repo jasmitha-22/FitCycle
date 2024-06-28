@@ -16,9 +16,8 @@ struct ovulatory: View {
             Color(red: 1, green: 0.8705882352941177, blue: 0.8705882352941177)
                 .ignoresSafeArea()
             VStack{
-                Spacer()
-                    .frame(height: 50.0)
                 Text("The ovulatory (3) part of the menstrual cycle lasts 12-24 hours, and that is when you are most fertile, and you will feel energetic and be able to tolerate higher intensity workouts such as running, HIIT workouts, and sculpt yoga  Watch the video below for a guided workout!")
+                    .lineLimit(6)
                     .font(.custom("PlaywriteNGModern-Regular_Light", size: 15))
                     .fontWeight(.semibold)
                     .multilineTextAlignment(.center)
@@ -33,7 +32,8 @@ struct ovulatory: View {
                 
                 ZStack{
                     VStack{
-                        VStack (alignment: .leading, spacing: 20){
+                        HStack{
+                        VStack (alignment: .center, spacing: 20){
                             NavigationLink(destination: running()) {
                                 Text ("running")
                                     .padding(.bottom, 2.0)
@@ -72,10 +72,15 @@ struct ovulatory: View {
                             .font(.custom("Verdana", size: 20))
                             .foregroundColor(Color(red: 1, green: 0.8705882352941177, blue: 0.8705882352941177))
                         }
-                        .padding(.trailing, 150)
                         .padding(.top, -10.0)
+                        Image("plant4")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                    }
+                        .padding(.bottom, 15.0)
                         
                         VStack {
+                            Spacer()
                             NavigationLink(destination: finish()) {
                                 Text ("Finish Workout")
                                     .padding(.bottom, 2.0)
@@ -87,14 +92,8 @@ struct ovulatory: View {
                             .font(.custom("Verdana", size: 20))
                             .foregroundColor(Color(red: 1, green: 0.8705882352941177, blue: 0.8705882352941177))
                         }
-                        .padding(.top, 20.0)
                     }
-                    Image("Leavess")
-                        .padding(.leading, 200.0)
-                        .padding(.top, 155.0)
-                    
-                        .scaledToFit()
-                    
+
                 }
             }
             }
