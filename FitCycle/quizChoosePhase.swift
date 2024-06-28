@@ -81,7 +81,7 @@ struct quizChoosePhase: View {
                         .font(.custom("PlaywriteNGModern-Regular_Light", size: 20))
                         .foregroundColor(Color(red: 1, green: 0.8705882352941177, blue: 0.8705882352941177))
                         
-                        NavigationLink(destination: luteal()) {
+                        NavigationLink(destination: ovulatory()) {
                             Text ("Days 12-16: Ovulatory")
                                 .padding()
                         }
@@ -91,7 +91,7 @@ struct quizChoosePhase: View {
                         .font(.custom("PlaywriteNGModern-Regular_Light", size: 20))
                         .foregroundColor(Color(red: 1, green: 0.8705882352941177, blue: 0.8705882352941177))
                         
-                        NavigationLink(destination: ovulatory()) {
+                        NavigationLink(destination: luteal()) {
                             Text ("Days 17-28 : Luteal")
                                 .padding()
                         }

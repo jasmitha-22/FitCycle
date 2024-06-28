@@ -24,6 +24,9 @@ struct luteal: View {
                     
                     WebView(urlString: "https://www.youtube.com/watch?v=8_rWGlPGgrE&list=PLDP0nZqyVEmUDzEp60y97GEeGwwogX5MZ&index=1")
                         .frame(width:350, height:200)
+                    Text("Here are some other reccomended workouts!")
+                        .font(.custom("PlaywriteNGModern-Regular_Light", size: 15))
+
                     HStack{
                         VStack (spacing: 20){
                             NavigationLink(destination: barre()) {

@@ -16,6 +16,8 @@ struct ovulatory: View {
             Color(red: 1, green: 0.8705882352941177, blue: 0.8705882352941177)
                 .ignoresSafeArea()
             VStack{
+                Spacer()
+                    .frame(height: 50.0)
                 Text("The ovulatory (3) part of the menstrual cycle lasts 12-24 hours, and that is when you are most fertile, and you will feel energetic and be able to tolerate higher intensity workouts such as running, HIIT workouts, and sculpt yoga  Watch the video below for a guided workout!")
                     .font(.custom("PlaywriteNGModern-Regular_Light", size: 15))
                     .fontWeight(.semibold)
@@ -26,6 +28,9 @@ struct ovulatory: View {
                 WebView(urlString: "https://www.youtube.com/embed/2xNcUjKLZto?si=gVqQj1hOjxHXK-fO")
                     .frame(width:350, height:200)
                     .padding()
+                Text("Here are some other reccomended workouts!")
+                    .font(.custom("PlaywriteNGModern-Regular_Light", size: 15))
+                
                 ZStack{
                     VStack{
                         VStack (alignment: .leading, spacing: 20){
@@ -68,6 +73,7 @@ struct ovulatory: View {
                             .foregroundColor(Color(red: 1, green: 0.8705882352941177, blue: 0.8705882352941177))
                         }
                         .padding(.trailing, 150)
+                        .padding(.top, -10.0)
                         
                         VStack {
                             NavigationLink(destination: finish()) {

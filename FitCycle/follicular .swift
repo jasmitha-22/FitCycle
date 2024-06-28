@@ -23,6 +23,9 @@ struct follicular: View {
                     WebView(urlString: "https:www.youtube.com/embed/_9sMkE-1VBI?si=qhPj-gfbWIUlY1v7")
                         .frame(width:350, height:200)
                         .padding()
+                    Text("Here are some other reccomended workouts!")
+                        .font(.custom("PlaywriteNGModern-Regular_Light", size: 15))
+                    
                     HStack{
                         VStack (spacing: 20){
                             NavigationLink(destination: hiking()) {

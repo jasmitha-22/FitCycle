@@ -28,7 +28,7 @@ struct disclaimers: View {
                 
                 Text ("In terms of fitness, please remmember that your body does not need to look like the fitness influencers. You are an entirely different person and remember that you are always beautiful.")
                     .font(.custom("Verdana", size: 15))
-                Text ("PLEASE PLEASE PLEASE remmember to take rest days as well, they are equally as important as working out! Take care of your body and listen to its needs. :)")
+                Text ("PLEASE PLEASE PLEASE remember to take rest days as well, they are equally as important as working out! Take care of your body and listen to its needs. :)")
                     .font(.custom("Verdana", size: 15))
 
             }
