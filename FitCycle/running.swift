@@ -1,5 +1,5 @@
 //
-//  yoga.swift
+//  running.swift
 //  FitCycle
 //
 //  Created by Jasmitha Gourabathini on 6/27/24.
@@ -10,7 +10,7 @@ import Foundation
 import SwiftUI
 import WebKit
 
-struct yoga: View {
+struct running: View {
     var body: some View {
         NavigationStack{
         ZStack{
@@ -24,7 +24,7 @@ struct yoga: View {
                     .background(Rectangle()
                         .foregroundColor(Color(red: 0.9490196078431372, green: 0.7607843137254902, blue: 0.8352941176470589)))
                     .cornerRadius(15)
-                WebView(urlString: "https://www.youtube.com/embed/vCytq0eygo8?si=BfaoUV5J3sgtdWDd")
+                WebView(urlString: "https://www.youtube.com/embed/BrliNdYmRVQ?si=Xj0WaCem5XaSpVzV")
                     .frame(width:350, height:180.0)
                 Text("Level: Intermediate")
                     .font(.custom("PlaywriteNGModern-Regular", size: 20))
@@ -33,7 +33,7 @@ struct yoga: View {
                     .background(Rectangle()
                         .foregroundColor(Color(red: 0.9490196078431372, green: 0.7607843137254902, blue: 0.8352941176470589)))
                     .cornerRadius(15)
-                WebView(urlString: "https://www.youtube.com/embed/8O--5Vbms6w?si=WYbR0WMEwbBuhFKN")
+                WebView(urlString: "https://www.youtube.com/embed/M841zNhi68w?si=Ps1YpYne-nnso3Ts")
                     .frame(width:350, height:180)
                 Text("Level: Advanced")
                     .font(.custom("PlaywriteNGModern-Regular", size: 20))
@@ -42,7 +42,7 @@ struct yoga: View {
                     .background(Rectangle()
                         .foregroundColor(Color(red: 0.9490196078431372, green: 0.7607843137254902, blue: 0.8352941176470589)))
                     .cornerRadius(15)
-                WebView(urlString: "https://www.youtube.com/embed/CiaD3jP0YhA?si=3KYgEkX1pjslBba-")
+                WebView(urlString: "https://www.youtube.com/embed/Ggub5uUtG-U?si=ICdnbPAIZvaF3fLR")
                     .frame(width:350, height:180)
                 NavigationLink(destination: finish()) {
                     Text ("Finish Workout")
@@ -77,9 +77,5 @@ struct yoga: View {
 
 
 #Preview {
-yoga()
+running()
 }
-
-
-
-

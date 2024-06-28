@@ -28,7 +28,7 @@ struct menstrual_: View {
                         .font(.custom("PlaywriteNGModern-Regular_Light", size: 15))
                     HStack{
                         VStack (spacing: 20){
-                            NavigationLink(destination: luteal()) {
+                            NavigationLink(destination: walking()) {
                                 Text ("walking")
                                     .padding(.bottom, 2.0)
                                     .padding([.leading, .trailing], 5.0)
@@ -55,7 +55,7 @@ struct menstrual_: View {
                             
                             //                        Spacer()
                             //                            .frame(width: 10.0)
-                            NavigationLink(destination: luteal()) {
+                            NavigationLink(destination: cycling()) {
                                 Text ("cycling")
                                     .padding(.bottom, 2.0)
                                     .padding([.leading, .trailing], 5.0)
@@ -70,9 +70,23 @@ struct menstrual_: View {
                         Image("cutie")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
+                            .padding(.bottom, 15.0)
+
                         
                     }
                     .padding(.leading, 25.0)
+//                    .padding(.bottom, 15.0)
+
+                    NavigationLink(destination: finish()) {
+                        Text ("Finish Workout")
+                            .padding(.bottom, 2.0)
+                            .padding([.leading, .trailing], 90.0)
+                    }
+                    .buttonStyle(.borderedProminent)
+                    .buttonBorderShape(.capsule)
+                    .tint(.init(red: 0.9294117647058824 ,green: 0.5215686274509804, blue: 0.43137254901960786))
+                    .font(.custom("Verdana", size: 20))
+                    .foregroundColor(Color(red: 1, green: 0.8705882352941177, blue: 0.8705882352941177))
                 }
             }
         }

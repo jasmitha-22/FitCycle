@@ -24,6 +24,15 @@
 		9392A6F62C2E4A1F00DEA8F2 /* yoga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392A6F52C2E4A1F00DEA8F2 /* yoga.swift */; };
 		9392A6F82C2E517D00DEA8F2 /* finish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392A6F72C2E517D00DEA8F2 /* finish.swift */; };
 		9392A6FA2C2E546500DEA8F2 /* walking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392A6F92C2E546500DEA8F2 /* walking.swift */; };
+		9392A6FC2C2E5BC600DEA8F2 /* cycling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392A6FB2C2E5BC600DEA8F2 /* cycling.swift */; };
+		9392A6FE2C2E60D100DEA8F2 /* hiking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392A6FD2C2E60D000DEA8F2 /* hiking.swift */; };
+		9392A7002C2E637100DEA8F2 /* cardio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392A6FF2C2E637000DEA8F2 /* cardio.swift */; };
+		9392A7022C2E653700DEA8F2 /* strength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392A7012C2E653600DEA8F2 /* strength.swift */; };
+		9392A7042C2E6ECF00DEA8F2 /* running.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392A7032C2E6ECF00DEA8F2 /* running.swift */; };
+		9392A7062C2E705C00DEA8F2 /* hiit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392A7052C2E705C00DEA8F2 /* hiit.swift */; };
+		9392A7082C2E723800DEA8F2 /* sculptYoga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392A7072C2E723800DEA8F2 /* sculptYoga.swift */; };
+		9392A70A2C2E77B800DEA8F2 /* barre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392A7092C2E77B800DEA8F2 /* barre.swift */; };
+		9392A70C2C2E795500DEA8F2 /* pilates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392A70B2C2E795500DEA8F2 /* pilates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +55,15 @@
 		9392A6F52C2E4A1F00DEA8F2 /* yoga.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yoga.swift; sourceTree = "<group>"; };
 		9392A6F72C2E517D00DEA8F2 /* finish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finish.swift; sourceTree = "<group>"; };
 		9392A6F92C2E546500DEA8F2 /* walking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walking.swift; sourceTree = "<group>"; };
+		9392A6FB2C2E5BC600DEA8F2 /* cycling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cycling.swift; sourceTree = "<group>"; };
+		9392A6FD2C2E60D000DEA8F2 /* hiking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hiking.swift; sourceTree = "<group>"; };
+		9392A6FF2C2E637000DEA8F2 /* cardio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardio.swift; sourceTree = "<group>"; };
+		9392A7012C2E653600DEA8F2 /* strength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strength.swift; sourceTree = "<group>"; };
+		9392A7032C2E6ECF00DEA8F2 /* running.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = running.swift; sourceTree = "<group>"; };
+		9392A7052C2E705C00DEA8F2 /* hiit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hiit.swift; sourceTree = "<group>"; };
+		9392A7072C2E723800DEA8F2 /* sculptYoga.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sculptYoga.swift; sourceTree = "<group>"; };
+		9392A7092C2E77B800DEA8F2 /* barre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barre.swift; sourceTree = "<group>"; };
+		9392A70B2C2E795500DEA8F2 /* pilates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pilates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +101,19 @@
 				9389B3FF2C29F5390057EC30 /* FitCycleApp.swift */,
 				9389B4012C29F5390057EC30 /* ContentView.swift */,
 				9389B4172C2A774D0057EC30 /* quizChoosePhase.swift */,
-				446BC65B2C2B329F00667E20 /* ovulatory.swift */,
 				446BC65D2C2B32AE00667E20 /* luteal.swift */,
+				9392A70B2C2E795500DEA8F2 /* pilates.swift */,
+				9392A7092C2E77B800DEA8F2 /* barre.swift */,
+				446BC65B2C2B329F00667E20 /* ovulatory.swift */,
+				9392A7072C2E723800DEA8F2 /* sculptYoga.swift */,
+				9392A7052C2E705C00DEA8F2 /* hiit.swift */,
+				9392A7032C2E6ECF00DEA8F2 /* running.swift */,
 				446BC6592C2B328C00667E20 /* follicular .swift */,
+				9392A7012C2E653600DEA8F2 /* strength.swift */,
+				9392A6FF2C2E637000DEA8F2 /* cardio.swift */,
+				9392A6FD2C2E60D000DEA8F2 /* hiking.swift */,
 				446BC6572C2B327C00667E20 /* menstrual .swift */,
+				9392A6FB2C2E5BC600DEA8F2 /* cycling.swift */,
 				9392A6F92C2E546500DEA8F2 /* walking.swift */,
 				9392A6F52C2E4A1F00DEA8F2 /* yoga.swift */,
 				9392A6F72C2E517D00DEA8F2 /* finish.swift */,
@@ -210,11 +237,20 @@
 				9389B4162C2A771D0057EC30 /* FitCycleApp.swift in Sources */,
 				446BC6582C2B327C00667E20 /* menstrual .swift in Sources */,
 				9389B4022C29F5390057EC30 /* ContentView.swift in Sources */,
+				9392A7002C2E637100DEA8F2 /* cardio.swift in Sources */,
+				9392A70A2C2E77B800DEA8F2 /* barre.swift in Sources */,
 				446BC65E2C2B32AE00667E20 /* luteal.swift in Sources */,
 				9392A6F82C2E517D00DEA8F2 /* finish.swift in Sources */,
+				9392A7042C2E6ECF00DEA8F2 /* running.swift in Sources */,
+				9392A7022C2E653700DEA8F2 /* strength.swift in Sources */,
+				9392A70C2C2E795500DEA8F2 /* pilates.swift in Sources */,
+				9392A6FE2C2E60D100DEA8F2 /* hiking.swift in Sources */,
+				9392A7082C2E723800DEA8F2 /* sculptYoga.swift in Sources */,
+				9392A6FC2C2E5BC600DEA8F2 /* cycling.swift in Sources */,
 				9389B4002C29F5390057EC30 /* FitCycleApp.swift in Sources */,
 				9389B4152C2A771D0057EC30 /* ContentView.swift in Sources */,
 				446BC65A2C2B328C00667E20 /* follicular .swift in Sources */,
+				9392A7062C2E705C00DEA8F2 /* hiit.swift in Sources */,
 				446BC65C2C2B329F00667E20 /* ovulatory.swift in Sources */,
 				9392A6F62C2E4A1F00DEA8F2 /* yoga.swift in Sources */,
 			);
