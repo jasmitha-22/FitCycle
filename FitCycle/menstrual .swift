@@ -41,7 +41,7 @@ struct menstrual_: View {
                             .foregroundColor(Color(red: 1, green: 0.8705882352941177, blue: 0.8705882352941177))
                             //                       Spacer()
                             //                            .frame(width: 10.0)
-                            NavigationLink(destination: luteal()) {
+                            NavigationLink(destination: yoga()) {
                                 Text ("yoga")
                                     .padding(.bottom, 2.0)
                                     .padding([.leading, .trailing], 5.0)

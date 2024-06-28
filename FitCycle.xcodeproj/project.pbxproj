@@ -21,6 +21,9 @@
 		9389B4162C2A771D0057EC30 /* FitCycleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389B4112C2A771D0057EC30 /* FitCycleApp.swift */; };
 		9389B4182C2A774D0057EC30 /* quizChoosePhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389B4172C2A774D0057EC30 /* quizChoosePhase.swift */; };
 		9392A6F22C2DD1EE00DEA8F2 /* PlaywriteNGModern-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9392A6F12C2DD1ED00DEA8F2 /* PlaywriteNGModern-VariableFont_wght.ttf */; };
+		9392A6F62C2E4A1F00DEA8F2 /* yoga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392A6F52C2E4A1F00DEA8F2 /* yoga.swift */; };
+		9392A6F82C2E517D00DEA8F2 /* finish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392A6F72C2E517D00DEA8F2 /* finish.swift */; };
+		9392A6FA2C2E546500DEA8F2 /* walking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392A6F92C2E546500DEA8F2 /* walking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		9389B4172C2A774D0057EC30 /* quizChoosePhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizChoosePhase.swift; sourceTree = "<group>"; };
 		9392A6EE2C2DC1EF00DEA8F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9392A6F12C2DD1ED00DEA8F2 /* PlaywriteNGModern-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlaywriteNGModern-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		9392A6F52C2E4A1F00DEA8F2 /* yoga.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yoga.swift; sourceTree = "<group>"; };
+		9392A6F72C2E517D00DEA8F2 /* finish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finish.swift; sourceTree = "<group>"; };
+		9392A6F92C2E546500DEA8F2 /* walking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,9 @@
 				446BC65D2C2B32AE00667E20 /* luteal.swift */,
 				446BC6592C2B328C00667E20 /* follicular .swift */,
 				446BC6572C2B327C00667E20 /* menstrual .swift */,
+				9392A6F92C2E546500DEA8F2 /* walking.swift */,
+				9392A6F52C2E4A1F00DEA8F2 /* yoga.swift */,
+				9392A6F72C2E517D00DEA8F2 /* finish.swift */,
 				9389B4122C2A771D0057EC30 /* FitCycle */,
 				9389B4032C29F54D0057EC30 /* Assets.xcassets */,
 				9389B4052C29F54D0057EC30 /* Preview Content */,
@@ -197,14 +206,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				9389B4182C2A774D0057EC30 /* quizChoosePhase.swift in Sources */,
+				9392A6FA2C2E546500DEA8F2 /* walking.swift in Sources */,
 				9389B4162C2A771D0057EC30 /* FitCycleApp.swift in Sources */,
 				446BC6582C2B327C00667E20 /* menstrual .swift in Sources */,
 				9389B4022C29F5390057EC30 /* ContentView.swift in Sources */,
 				446BC65E2C2B32AE00667E20 /* luteal.swift in Sources */,
+				9392A6F82C2E517D00DEA8F2 /* finish.swift in Sources */,
 				9389B4002C29F5390057EC30 /* FitCycleApp.swift in Sources */,
 				9389B4152C2A771D0057EC30 /* ContentView.swift in Sources */,
 				446BC65A2C2B328C00667E20 /* follicular .swift in Sources */,
 				446BC65C2C2B329F00667E20 /* ovulatory.swift in Sources */,
+				9392A6F62C2E4A1F00DEA8F2 /* yoga.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
