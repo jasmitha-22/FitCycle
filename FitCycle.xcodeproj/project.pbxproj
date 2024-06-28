@@ -33,6 +33,7 @@
 		9392A7082C2E723800DEA8F2 /* sculptYoga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392A7072C2E723800DEA8F2 /* sculptYoga.swift */; };
 		9392A70A2C2E77B800DEA8F2 /* barre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392A7092C2E77B800DEA8F2 /* barre.swift */; };
 		9392A70C2C2E795500DEA8F2 /* pilates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392A70B2C2E795500DEA8F2 /* pilates.swift */; };
+		9392A70E2C2E7B7B00DEA8F2 /* disclaimers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392A70D2C2E7B7B00DEA8F2 /* disclaimers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		9392A7072C2E723800DEA8F2 /* sculptYoga.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sculptYoga.swift; sourceTree = "<group>"; };
 		9392A7092C2E77B800DEA8F2 /* barre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barre.swift; sourceTree = "<group>"; };
 		9392A70B2C2E795500DEA8F2 /* pilates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pilates.swift; sourceTree = "<group>"; };
+		9392A70D2C2E7B7B00DEA8F2 /* disclaimers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = disclaimers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				9392A6EE2C2DC1EF00DEA8F2 /* Info.plist */,
 				9389B3FF2C29F5390057EC30 /* FitCycleApp.swift */,
 				9389B4012C29F5390057EC30 /* ContentView.swift */,
+				9392A70D2C2E7B7B00DEA8F2 /* disclaimers.swift */,
 				9389B4172C2A774D0057EC30 /* quizChoosePhase.swift */,
 				446BC65D2C2B32AE00667E20 /* luteal.swift */,
 				9392A70B2C2E795500DEA8F2 /* pilates.swift */,
@@ -242,6 +245,7 @@
 				446BC65E2C2B32AE00667E20 /* luteal.swift in Sources */,
 				9392A6F82C2E517D00DEA8F2 /* finish.swift in Sources */,
 				9392A7042C2E6ECF00DEA8F2 /* running.swift in Sources */,
+				9392A70E2C2E7B7B00DEA8F2 /* disclaimers.swift in Sources */,
 				9392A7022C2E653700DEA8F2 /* strength.swift in Sources */,
 				9392A70C2C2E795500DEA8F2 /* pilates.swift in Sources */,
 				9392A6FE2C2E60D100DEA8F2 /* hiking.swift in Sources */,

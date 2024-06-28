@@ -27,6 +27,15 @@ struct ContentView: View {
                         .font(.custom("Playwrite NG Modern", size: 20))
                         
                         .foregroundColor(Color(red: 1, green: 0.8705882352941177, blue: 0.8705882352941177))
+                        NavigationLink(destination: disclaimers()) {
+                            Text("Disclaimers (Please Read First)")
+                                .padding()
+                        }
+                        
+                        .font(.custom("Verdana", size: 15))
+                        .underline(true) //did not work
+                        
+                        .foregroundColor(Color(red: 0.9294117647058824, green: 0.5215686274509804, blue: 0.43137254901960786))
                     }
                 }
             }

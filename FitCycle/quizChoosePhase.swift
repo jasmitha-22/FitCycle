@@ -82,7 +82,7 @@ struct quizChoosePhase: View {
                         .foregroundColor(Color(red: 1, green: 0.8705882352941177, blue: 0.8705882352941177))
                         
                         NavigationLink(destination: luteal()) {
-                            Text ("Days 12-16: Ovulation")
+                            Text ("Days 12-16: Ovulatory")
                                 .padding()
                         }
                         .buttonStyle(.borderedProminent)
